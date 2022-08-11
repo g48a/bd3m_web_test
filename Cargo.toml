@@ -1,5 +1,5 @@
 [package]
-name = "http_handle"
+name = "bd3m_web_test"
 version = "0.1.1"
 authors = ["Aleksander Andrushko sasha1f@protonmail.com"]
 edition = "2021"
