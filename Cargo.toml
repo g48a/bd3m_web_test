@@ -1,0 +1,15 @@
+[package]
+name = "http_handle"
+version = "0.1.1"
+authors = ["Aleksander Andrushko sasha1f@protonmail.com"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "2"
+actix-rt = "1.0"
+actix-service = "1.0.6"
+serde_json = { version = "1.0.83", default-features = false,features = ["alloc"] }
+serde = "1.0.143"
+futures = "0.3.21"
