@@ -4,11 +4,6 @@
     margin-top: 2rem;
 }
 
-.inputContainer input {
-    display: inline-block;
-    margin: 0.4rem;
-}
-
 .itemContainer:hover {
     background: #034f99;
 }
@@ -24,7 +19,7 @@
 .actionButton {
     display: inline-block;
     float: right;
-    background: #f6686b;
+    background: #f7786b;
     border: none;
     padding: 0.5rem;
     padding-left: 2rem;
@@ -35,4 +30,16 @@
 .actionButton:hover {
     background: #f7686b;
     color: black;
+    cursor: pointer;
+}
+
+.inputContainer {
+    background: #034f84;
+    margin: 0.3rem;
+    margin-top: 2rem;
+}
+
+.inputContainer input {
+    display: inline-block;
+    margin: 0.4rem;
 }

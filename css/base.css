@@ -12,7 +12,7 @@ body {
     }
 }
 
-@media(min-width: 501px) and (max-width: 550px) {
+@media(min-width: 501px) and (max-width: 600px) {
     body {
         padding: 1px;
         display: grid;
@@ -21,7 +21,7 @@ body {
     .mainContainer { grid-column-start: 2; }
 }
 
-@media(min-width: 551px) and (max-width: 1000px) {
+@media(min-width: 601px) and (max-width: 1000px) {
     body {
         padding: 1px;
         display: grid;

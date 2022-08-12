@@ -49,7 +49,7 @@ async fn main() -> std::io::Result<()> {
             //.route("/{name}", web::get().to(greet))
     })
         .bind(format!("0.0.0.0:{PORT}"))?
-        .workers(10)
+        .workers(8)
         .run()
         .await
 }
